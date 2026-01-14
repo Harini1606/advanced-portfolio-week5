@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Portfolio</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body data-theme="light">
+
+<header class="header">
+  <nav class="nav">
+    <h1 class="nav__logo">Harini</h1>
+
+    <ul class="nav__links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="nav__theme-btn" onclick="toggleTheme()">Dark Mode</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="images/hero.jpg" alt="Professional team working">
+  <div class="hero__content">
+    <h2>Building Modern Web Experiences</h2>
+    <p>Advanced CSS, Grid layouts, animations, and scalable design systems.</p>
+  </div>
+</section>
+
+<main class="container">
+
+  <section id="projects" class="portfolio">
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="portfolio__grid">
+      <div class="portfolio__card">Business Website</div>
+      <div class="portfolio__card">Portfolio Design</div>
+      <div class="portfolio__card">Landing Page</div>
+      <div class="portfolio__card">Contact Form UI</div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about__text">
+      I am a web development intern focusing on modern CSS techniques such as
+      Grid, Flexbox, animations, CSS variables, and scalable CSS architecture.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+    <button class="contact__btn">Get in Touch</button>
+  </section>
+
+</main>
+
+<script src="js/theme-switcher.js"></script>
+</body>
+</html>
