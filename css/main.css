@@ -1,1 +1,37 @@
+:root {
+  --primary-color: #4361ee;
+  --accent-color: #f72585;
 
+  --bg-color: #f8f9fa;
+  --text-color: #222;
+  --card-bg: #ffffff;
+  --card-text: #222;
+
+  --spacing: 1rem;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --card-bg: #1e1e1e;
+  --card-text: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
